@@ -24,7 +24,7 @@ jobs:
     steps:
 
       - name: Checkout parameters
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Load variables with defaults
         uses: AzActions/Variables@v1
@@ -38,7 +38,7 @@ jobs:
     steps:
 
       - name: Checkout parameters
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: List variables from runner
         uses: AzActions/Variables@v1
@@ -54,7 +54,7 @@ jobs:
     steps:
 
       - name: Checkout parameters
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Load variables using overrides/inputs
         uses: AzActions/Variables@v1
@@ -71,7 +71,7 @@ jobs:
     steps:
 
       - name: Checkout parameters
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Load and list variables
         uses: AzActions/Variables@v1

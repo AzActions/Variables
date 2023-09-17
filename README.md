@@ -103,7 +103,7 @@ jobs:
     steps:
 
       - name: Checkout source code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: List variables
         uses: AzActions/Variables@v1
